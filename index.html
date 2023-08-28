@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JCVICKY COMPANY</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <a href="/"><img src="img/newlog.PNG" /></a>
+        <div class="navbar-link" id="navbarlink">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="product.html">PRODUCT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+
+      <section class="section">
+        <h1 class="section-h1">Company Profile</h1>
+        <p>
+          <strong class="Company">Here at JC Vicky Nig Ltd</strong>, we are
+          involved in the Importation, Exportation, sales and distribution of
+          numerious industrial chemicals nationwide...
+        </p>
+        <a href="contact.html" class="hero-btn">Contact us</a>
+      </section>
+    </header>
+
+    <section class="home-page">
+      <h1 class="home-page-h1">JC VICKY NIG LTD</h1>
+      <div class="row">
+        <div class="home-col">
+          <img src="img/homepage3.PNG" />
+          <h2>EXPERTISE</h2>
+          <p>
+            We at Jc Vicky Nig Ltd we specialize in the importation and
+            distribution of a wide range of industrial chemicals worldwide.
+          </p>
+        </div>
+        <div class="home-col">
+          <img src="img/homepage4.PNG" />
+          <h2>INNOVATION</h2>
+          <p>
+            We explore new ideas, experiment with different approaches, in other
+            to help with the continuous growth and progress of the company.
+          </p>
+        </div>
+        <div class="home-col">
+          <img src="img/homepage5.PNG" />
+          <h2>LOYALTY</h2>
+          <p>
+            We are very loyal to our customers, because our company maintains a
+            high level of value in areas of integrity and accountability.
+          </p>
+        </div>
+        <div class="home-col">
+          <img src="img/homepage1.PNG" />
+          <h2>SUSTAINABILITY</h2>
+          <p>
+            We make continuous research in terms of making sure we don't lag
+            behide as a company, and we make sure to always put customers
+            interests at heart hence giving room to positive critism.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="home-bg">
+        <div class="home-bg-div">
+            <p><span class="nowrap">We're at your service anytime, <a href="contact.html"> Click Here</a></span> to contact us. <br> we've got all the chemicals you need with 24/7 customer care service...</p>
+        
+        </div>
+      </div>
+
+    <!-------- footer -------->
+    <footer class="footer">
+      <h4>About Us</h4>
+      <p>
+        Importation, sales and distributors of industrial chemicals in Nigeria.
+        <br />
+        <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+        <span class="nowrap">JC Vicky Nig Ltd</span>
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+      </div>
+    </footer>
+
+    <!----------- Javascript for Toggle menu --------->
+    <script>
+      var navbarlink = document.getElementById("navbarlink");
+
+      function showmenu() {
+        navbarlink.style.right = "0";
+      }
+
+      function hidemenu() {
+        navbarlink.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
